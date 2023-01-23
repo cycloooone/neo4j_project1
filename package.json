@@ -1,0 +1,19 @@
+{
+  "name": "nodej-neo4j",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "ejs": "3.1.8",
+    "express": "*",
+    "morgan": "*",
+    "neo4j-driver": "^5.4.0"
+  }
+}
